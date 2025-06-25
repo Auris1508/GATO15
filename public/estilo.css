@@ -103,3 +103,213 @@ input[type="submit"]:hover {
 .card a:hover {
     color: #26c6da;
 }
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f4f9; /* blanco grisáceo */
+    color: #4a3250; /* violeta oscuro suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Enlace */
+a {
+    color: #b48ac3; /* lila suave */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c69acb; /* rosado lila claro */
+}
+
+/* Formulario general */
+form {
+    background-color: #ffffff; /* blanco limpio */
+    padding: 20px 30px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(180, 138, 195, 0.2); /* sombra lila */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Inputs */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #d6c2e0; /* borde lila claro */
+    border-radius: 6px;
+    background-color: #f3ecf8; /* fondo lila muy claro */
+    color: #4a3250; /* texto violeta suave */
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+    color: #a694b0; /* placeholder suave */
+}
+
+input[type="text"]:focus {
+    border: 1px solid #b48ac3; /* lila en foco */
+}
+
+/* Botones */
+input[type="submit"] {
+    background-color: #d8a8d2; /* rosado lila claro */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #c78ec6; /* tono un poco más intenso */
+}
+
+/* Tarjeta */
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(180, 138, 195, 0.25);
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card h1 {
+    color: #b48ac3;
+    margin-bottom: 15px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #b48ac3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #c69acb;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f4f9;
+    color: #4a3250;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Enlaces */
+a {
+    color: #b48ac3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #c69acb;
+}
+
+/* Botones tipo enlace */
+.btn {
+    display: inline-block;
+    background-color: #d8a8d2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #c78ec6;
+}
+
+/* Tarjeta */
+.card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(180, 138, 195, 0.3);
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    color: #4a3250;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.card h1 {
+    color: #b48ac3;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Tabla */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: #4a3250;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(180, 138, 195, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0d0ec;
+}
+
+th {
+    background-color: #f3ecf8;
+    color: #6a4e77;
+}
+
+tr:hover {
+    background-color: #f9f5fb;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
